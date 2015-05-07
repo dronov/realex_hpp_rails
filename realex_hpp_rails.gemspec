@@ -7,17 +7,16 @@ require "realex_hpp_rails/version"
 Gem::Specification.new do |s|
   s.name        = "realex_hpp_rails"
   s.version     = RealexHppRails::VERSION
-  s.authors     = ["Mikhail Dronov"]
-  s.email       = ["dronovmm@undev.ru"]
+  s.authors     = ["TODO: Your name"]
+  s.email       = ["TODO: Your email"]
   s.homepage    = "TODO"
-  s.summary     = "A gem to integrate Realex Hosted Payment Page into your Rails app."
-  s.description = "A gem to integrate Realex Hosted Payment Page into your Rails app."
-  s.license     = "MIT"
+  s.summary     = "TODO: Summary of RealexHppRails."
+  s.description = "TODO: Description of RealexHppRails."
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "rails", "~> 4.0.0"
+  s.add_dependency "rails", "~> 4.0.2"
 
-  s.add_dependency "webmock", "~> 1.18.0"
+  s.add_development_dependency "sqlite3"
 end
